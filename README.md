@@ -28,7 +28,6 @@ An example of Django project with basic user functionality.
 - Change password
 - Change email
 - Change profile
-- Multilingual: English, French, Russian, Simplified Chinese and Spanish
 
 ## Installing
 
@@ -42,10 +41,12 @@ cd dj_login.git
 ### Install dependencies & activate virtualenv
 
 ```
-pip install pipenv
+pip install pipenv  
 
-pipenv install
-pipenv shell
+pipenv install  (if it does not work, try: python -m pipenv install)
+pipenv shell	(if it does not work, try: python -m pipenv ishell)
+
+(Some times, Django needs to install: python -m pip install Django)
 ```
 
 ### Configure the settings (connection to the database, connection to an SMTP server, and other options)
@@ -74,4 +75,11 @@ Just run this command:
 
 ```
 python source/manage.py runserver
+
+first: create super user (for example: admin/superuser)
+http://localhost:8000/admin  
+then create user for the web on the admin page
+
+Access the web 
+http://localhost:8000/
 ```
