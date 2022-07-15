@@ -2,16 +2,6 @@
 
 An example of Django project with basic user functionality.
 
-## Screenshots
-
-| Log In | Create an account | Authorized page |
-| -------|--------------|-----------------|
-| <img src="./screenshots/login.png" width="200"> | <img src="./screenshots/create_an_account.png" width="200"> | <img src="./screenshots/authorized_page.png" width="200"> |
-
-| Password reset | Set new password | Password change |
-| ---------------|------------------|-----------------|
-| <img src="./screenshots/password_reset.png" width="200"> | <img src="./screenshots/set_new_password.png" width="200"> | <img src="./screenshots/password_change.png" width="200"> |
-
 ## Functionality
 
 - Log in
@@ -28,8 +18,11 @@ An example of Django project with basic user functionality.
 - Change password
 - Change email
 - Change profile
-
+usi
 ## Installing
+
+chech if git is installed on local. Open CMD and type: git --version
+Download git: https://git-scm.com/downloads
 
 ### Clone the project
 
