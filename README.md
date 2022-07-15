@@ -21,8 +21,10 @@ An example of Django project with basic user functionality.
 usi
 ## Installing
 
-chech if git is installed on local. Open CMD and type: git --version
-Download git: https://git-scm.com/downloads
+```
+chech if git is installed on local. Open CMD and type: git --version 
+https://git-scm.com/downloads
+```
 
 ### Clone the project
 
