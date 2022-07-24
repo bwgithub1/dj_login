@@ -141,3 +141,5 @@ if DISABLE_USERNAME:
     SIGN_UP_FIELDS = ['first_name', 'last_name', 'email', 'password1', 'password2']
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+import django_on_heroku
+django_on_heroku.settings(locals())
