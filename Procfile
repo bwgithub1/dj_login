@@ -1,1 +1,1 @@
-web: gunicorn dj_login.wsgi
+web: gunicorn app.wsgi
